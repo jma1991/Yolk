@@ -1,7 +1,7 @@
-name: "Yolk"
+name: Yolk
 output_dir: ../docs
 navbar:
-  title: "Yolk"
+  title: Yolk
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/jma1991/Yolk
 output:
   workflowr::wflow_html:
     toc: yes
